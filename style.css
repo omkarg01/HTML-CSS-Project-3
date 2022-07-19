@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+    color: #F1F0EF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bg-img {
+    position: relative;
+    height: 45vh;
+    /* background-color: rgba(100, 100, 100, 1); */
+    background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #2B2922;
+    height: 60vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    /* padding-top: 30px; */
+    padding: 20px 0px;
+    align-items: center;
+}
+
+/* .navbar div {
+    height: 40px;
+}  */
+.navbar div img {
+    height: 40px;
+}
+
+nav div:nth-child(1) {
+    /* display: flex; */
+    flex: 1;
+}
+
+nav div:nth-child(2) {
+    /* display: flex; */
+    flex: 2;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    /* color: #322727fd; */
+}
+
+.list-item {
+    color: #959292fd;
+    padding-top: 10px;
+}
+
+.list-item:hover {
+    color: #F1F0EF;
+    font-size: 22px;
+}
+
+button {
+    background-color: #2B2922;
+    border: 1px solid #9A8935;
+    color: #9A8935;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+.hero {
+    display: flex;
+    margin: 0px 10%;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.hero-heading {
+    flex: 1.5;
+    /* background-color: antiquewhite; */
+    font-size: 80px;
+    font-family: 'B612';
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+.desc {
+    flex: 1;
+    /* background-color: aquamarine; */
+    font-size: 25px;
+    font-weight: 100;
+    color: #959292fd;
+}
